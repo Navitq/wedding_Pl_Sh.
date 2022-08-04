@@ -1,0 +1,88 @@
+@font-face {
+	font-family: 'marck'; 
+	src: url(/fonts/marck.ttf); 
+
+}
+
+@font-face {
+	font-family: 'ruskopis'; 
+	src: url('fonts/Russkopis-Normalny.sfd.eot');
+	src: local('☺'), url('fonts/Russkopis-Normalny.sfd.woff') format('woff'), url('fonts/Russkopis-Normalny.sfd.ttf') format('truetype'), url('fonts/Russkopis-Normalny.sfd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	
+}
+
+@font-face {
+	font-family: 'nastya'; 
+	src: url('fonts/Anastasia.eot');
+	src: local(''), url('fonts/Anastasia.woff') format('woff'), url('fonts/Anastasia.ttf') format('truetype'), url('fonts/Anastasia.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+  font-family: 'nastya';
+  margin: 0;
+}
+
+body {
+  background-color: rgb(238, 255, 255);
+  color: #468ea5;
+}
+
+header {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.header-names {
+  font-family: 'nastya';
+  text-align: center;
+  font-size: 42pt;
+}
+
+.header-letters {
+  
+  display: flex;
+  
+ 
+  font-size: 96pt;
+
+}
+
+.header-circle {
+	width: 100px;
+	height: 100px;
+}
+
+.first-letter {
+	font-family: 'ruskopis'; 
+  
+
+}
+
+.second-letter {
+	font-family: 'ruskopis'; 
+
+}
+
+.header-text {
+
+  font-size: 54pt;
+}
+
+.header-left-wedding-bord{
+	width: 100px;
+	height: 100px;
+	 
+}
+
+.header-right-wedding-bord{
+	width: 100px;
+	height: 100px;
+	transform: rotate(-90deg); 
+}
